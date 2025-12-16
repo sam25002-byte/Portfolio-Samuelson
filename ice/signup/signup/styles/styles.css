@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(120, 96, 64);
+}
+
+#formContainer {
+    background-color: white;
+    border: rgb(0, 0, 138) solid 10px;
+    width: 450px;
+    border-radius: 25px;
+    background-image: url(../images/jesus_feeds_5000.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    margin: auto;
+}
+.title {
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    text-shadow: 0px 3px black;
+}
+#myForm {
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.username {
+    width: auto;
+    text-align: left;
+    padding: 10px;
+}
+#username {
+    float: right;
+}
+.password {
+    width: auto;
+    text-align: left;
+    padding: 10px;
+}
+#password {
+    float: right;
+}
+.email {
+    width: auto;
+    text-align: left;
+    padding: 10px;
+}
+#email {
+    float: right;
+}
+#genderlabel {
+    padding: 10px;
+}
+.gender {
+    text-align: left;
+    padding: 10px;
+    padding-left: 0;
+}
+.male {
+    float: right;
+    padding-right: 35px;
+}
+.female {
+    float: right;
+    padding-right: 10px;
+}
+section {
+    padding: 10px;
+}
+#closeBtn {
+    margin: 10px;
+}
+.head {
+    padding: 20px;
+    font-size: 20pt;
+}
+label {
+    font-size: 15pt;
+}
+.imgs {
+    width: 19%;
+}
+#feeds {
+
+}
