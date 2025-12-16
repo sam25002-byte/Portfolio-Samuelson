@@ -1,0 +1,22 @@
+body {
+    background-color:rgb(19, 100, 9);
+    color:rgb(255, 0, 174);
+}
+h1 {
+    color: white;
+    background-color: black;
+    padding: 30px 15px;
+    border: 2px solid rgb(255, 0, 255);
+}
+p {
+    background-color: cadetblue;
+}
+.flavor {
+    background-color: black;
+    font-style: italic;
+    color: lime;
+}
+#culture {
+    font-weight: bolder;
+    color: orangered
+}
