@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .right {
+            text-align: right;
+            float: right;
+        }
+        .left {
+            text-align: left;
+            float: left;
+        }
+        .center {
+            float: center;
+        }
+        img {
+            width: 100%;
+            margin: auto;
+        }
+        section {
+            margin: auto;
+            background-color: white;
+            width: 500px;
+            height: 600px;
+        }
+        main {
+            background-color: #eeeeee;
+        }
+        .profile {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .container-flex {
+            display: flex; /* Makes the container a flex container */
+            flex-direction: row; /* Arranges items in a row (default) */
+            margin-bottom: 10px; /* Adds space between rows */
+            padding: 10px;
+        }
+        .row-item {
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="heading div1">
+                <img class="profile left" src="images/pexels-brandon-nickerson-129347-395077.jpg" alt="dude">
+                <h3 class="left">alexajohn</h3>
+                <i class="fa-solid fa-ellipsis-vertical right"></i>
+                <h3 class="right">20 mins</h3>
+            </div>
+            <div class="container-flex">
+                <img class="img center" src="images/pexels-lazybird-1212600.jpg" alt="sunset">
+            </div>
+            <div>
+                <i class="fa-solid fa-bookmark left"></i>
+                <i class="fa-solid fa-share-nodes left"></i>
+                <i class="fa-regular fa-message left"></i>
+                <h3 class="left">125</h3>
+                <i class="fa-regular fa-heart right"></i>
+                <h3 class="right">852</h3>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>

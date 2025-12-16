@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostle Spotlight</title>
+    <style>
+        /* Insert styles here, this is called an internal stylesheet  */
+        body {
+            background: #FFECD7;
+            display: grid;
+            grid-template-columns: repeat(10,1fr);
+            font-family: Arial;
+        }
+        body section {
+            grid-column: 2/-2;
+            background-image: url(images/christus.webp);
+            background-repeat: no-repeat;
+            background-position: center; 
+            background-size: cover;
+            text-align: center;
+            border-radius: 50px;
+            border: 8px solid black;
+        }
+        .title {
+            font-size: 30pt;
+            color: white;
+        }
+        .presidency {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            margin: auto;
+            gap: 20px;
+        }
+        .councilor1 {
+            grid-column: 2/3;
+            width: 250px;
+            height: 250px; 
+            border-radius: 50%; 
+            overflow: hidden; 
+            background-color: white;
+
+            margin: auto;
+            padding: 20px;
+        }
+        .councilor2 {
+            grid-column: 4/5;
+            width: 250px;
+            height: 250px; 
+            border-radius: 50%; 
+            overflow: hidden; 
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+        }
+        .prophet {
+            grid-column: 3/4;
+            width: 300px;
+            height: 300px; 
+            border-radius: 50%; 
+            overflow: hidden; 
+            background-color: white;
+
+            margin: auto;
+            padding: 20px;
+        }
+        .apostle1 {
+            grid-column: 2/3;
+            width: 200px;
+            height: 200px; 
+            border-radius: 50%; 
+            overflow: hidden; 
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+        }
+        .apostle2 {
+            grid-column: 3/4;
+            width: 200px;
+            height: 200px; 
+            border-radius: 50%; 
+            overflow: hidden; 
+            background-color: white;
+            margin: auto;   
+            padding: 20px;    
+        }
+        .apostle3 {
+            grid-column: 4/5;
+            width: 200px;
+            height: 200px; 
+            border-radius: 50%; 
+            overflow: hidden; 
+            background-color: white;
+            margin: auto;  
+            padding: 20px;  
+        }
+        .apostle4 {
+            grid-column: 5/6;
+            width: 200px;
+            height: 200px; 
+            border-radius: 50%; 
+            overflow: hidden; 
+            background-color: white;
+            margin: auto;  
+            padding: 20px;     
+        }
+        .apostles {
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            margin: auto;
+            padding: 20px;
+            gap: 20px;
+
+        }
+        .last {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            margin: auto;
+            padding: 20px;
+            gap: 20px;
+        }
+        section div h2 {
+            font-size: 25pt;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="title">
+            <h1>First Presidency</h1>
+        </div>
+        <div class="presidency">
+            <img class="councilor1" src="images/eyring.webp" alt="photo of ">
+            <img class="prophet" src="images/oaks.webp" alt="photo of President Oaks">
+            <img class="councilor2" src="images/christofferson.webp" alt="photo of ">
+        </div>
+        <div>
+            <h2>
+                Quorum of the Twelve Apostles
+            </h2>
+        </div>
+        <div class="apostles">
+            <img class="apostle1" src="images/anderson.webp" alt="">
+            <img class="apostle2" src="images/bednar.webp" alt="">
+            <img class="apostle3" src="images/cook.webp" alt="">
+            <img class="apostle4" src="images/gong.webp" alt="">
+        </div>
+        <div class="apostles">
+            <img class="apostle1" src="images/holland.webp" alt="">
+            <img class="apostle2" src="images/kearon.webp" alt="">
+            <img class="apostle3" src="images/rasband.webp" alt="">
+            <img class="apostle4" src="images/renlund.webp" alt="">
+        </div>
+        <div class="last">
+            <img class="apostle1" src="images/soares.webp" alt="">
+            <img class="apostle2" src="images/stevenson.webp" alt="">
+            <img class="apostle3" src="images/uchtdorf.webp" alt="">
+        </div>
+    </section>
+</body>
+</html>
