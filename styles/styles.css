@@ -1,0 +1,202 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: url('../images/background.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 1000px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    grid-column: 1/1;
+    padding: 5px;
+    float: left;
+}
+.left {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 150px;
+    background-color:#909590;
+    line-height: 90px;
+    border-left: #2c302e solid 15px;
+    border-top: #2c302e solid 15px;
+    border-bottom: #2c302e solid 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.right {
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color:#909590;
+    height: 150px;
+    line-height: 100px;
+    border-right: #2c302e solid 15px;
+    border-top: #2c302e solid 15px;
+    border-bottom: #2c302e solid 15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+nav {
+    grid-column: 2/-1;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    font-size: 15pt;
+}
+.circle {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+}
+.c1 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: #2c302e; 
+}
+.c2 {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    background-color: #474a48; 
+}
+.c3 {
+    grid-column: 7/8;
+    grid-row: 3/4;
+    background-color: #909590; 
+}
+.c4 {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    background-color: #537a5a; 
+}
+.c5 {
+    grid-column: 6/7;
+    grid-row: 4/5;
+    background-color: #9ae19d; 
+}
+.heading1 {
+    grid-column: 5/6;
+    font-size: 35pt;
+}
+.home {
+    grid-column: 2/3;
+}
+.about {
+    grid-column: 3/4;
+}
+.projects {
+    grid-column: 4/5;
+}
+a:link {
+    color: #2c302e; /* Color for unvisited links */
+    text-decoration: none; /* Removes the underline */
+}
+a:visited {
+    color: #474a48; /* Color for visited links */
+    text-decoration: none;
+}
+a:hover {
+    color: #537a5a; /* Color when the mouse hovers over the link */
+    text-decoration: underline; /* Adds an underline on hover */
+}
+a:active {
+    color:#9ae19d; /* Color when the link is being clicked */
+    text-decoration: underline;
+}
+a {
+    padding: 20px;
+}
+.heading2 {
+    margin-left: 30px;
+}
+.achieve {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.div3 {
+    border-radius: 15px;
+    font-size: 30pt;
+    text-align: center;
+    height: 1525px;
+    border: #2c302e solid 5px;
+    grid-column:1/-1 ;
+    background-color: #537a5a;
+    color: white;
+    padding-top: 50px;
+}
+.imgs {
+    width: 50%;
+}
+.q1 {
+    border: #2c302e solid 5px;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    background-color:#474a48;
+    border-radius: 15px;
+    padding: 90px;
+    color: #9ae19d;
+
+}
+.q2 {
+    grid-column: 2/2;
+    grid-row: 1/1;
+    background-color:#474a48;
+    border: #2c302e solid 5px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.q3 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+    background-color:#474a48;
+    border: #2c302e solid 5px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.q4 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background-color:#474a48;
+    border: #2c302e solid 5px;
+    border-radius: 15px;
+    padding: 90px;
+    color: #9ae19d;
+
+}
+.intro1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.spacer {
+    height: 500px;
+}
+.projectlist {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+ul {
+    grid-column: 2/2;
+    background-color:#909590;
+    border: #2c302e solid 10px;
+    border-radius: 15px;
+}
+.ethanpic {
+    width: 30%;
+    margin: 30px;
+    border: #042c0b solid 10px;
+
+}
